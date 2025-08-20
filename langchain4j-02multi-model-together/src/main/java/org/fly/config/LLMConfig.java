@@ -12,9 +12,8 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class LLMConfig {
-    @Bean
+    @Bean(name = "qwen")
     public ChatModel chatModelQwen() {
-        System.out.println("key: " + System.getenv("aliQwen-api"));
         return OpenAiChatModel.builder()
                 .apiKey(System.getenv("aliQwen-api"))
                 .modelName("qwen-plus")
@@ -22,4 +21,18 @@ public class LLMConfig {
                 .build();
     }
 
+    /**
+     * @Description: 知识出处，https://api-docs.deepseek.com/zh-cn/
+     * @Auther: zzyybs@126.com
+     */
+    @Bean(name = "deepseek")
+    public ChatModel chatModelDeepSeek() {
+        return
+                OpenAiChatModel.builder()
+                        .apiKey(System.getenv("deepseek-api"))
+                        .modelName("deepseek-chat")
+                        //.modelName("deepseek-reasoner")
+                        .baseUrl("https://api.deepseek.com/v1")
+                        .build();
+    }
 }
