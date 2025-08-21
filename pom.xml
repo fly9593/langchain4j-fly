@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,7 +15,7 @@
         <module>langchain4j-02multi-model-together</module>
         <module>langchain4j-03boot-integration</module>
         <module>langchain4j-04low-high-api</module>
-        <!--        <module>langchain4j-05model-parameters</module>-->
+        <module>langchain4j-05model-parameters</module>
         <!--        <module>langchain4j-06chat-image</module>-->
         <!--        <module>langchain4j-07chat-stream</module>-->
         <!--        <module>langchain4j-08chat-memory</module>-->
