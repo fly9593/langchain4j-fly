@@ -1,4 +1,4 @@
-package com.atguigu.study.config;
+package org.fly.config;
 
 import dev.langchain4j.community.model.dashscope.WanxImageModel;
 import dev.langchain4j.model.chat.ChatModel;

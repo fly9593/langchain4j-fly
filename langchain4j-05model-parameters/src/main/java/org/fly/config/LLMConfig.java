@@ -1,10 +1,8 @@
-package com.atguigu.study.config;
+package org.fly.config;
 
-import com.atguigu.study.listener.TestChatModelListener;
+import org.fly.listener.TestChatModelListener;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.openai.OpenAiChatModel;
-import dev.langchain4j.service.AiServices;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

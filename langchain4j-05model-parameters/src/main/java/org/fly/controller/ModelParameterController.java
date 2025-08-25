@@ -1,4 +1,4 @@
-package com.atguigu.study.controller;
+package org.fly.controller;
 
 import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.model.chat.ChatModel;

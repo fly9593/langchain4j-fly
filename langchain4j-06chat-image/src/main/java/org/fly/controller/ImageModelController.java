@@ -1,4 +1,4 @@
-package com.atguigu.study.controller;
+package org.fly.controller;
 
 import dev.langchain4j.data.message.AiMessage;
 import dev.langchain4j.data.message.ImageContent;
